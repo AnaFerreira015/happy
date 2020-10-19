@@ -64,7 +64,7 @@ function OrphanagesMap() {
                 maxWidth={240}
                 className="map-popup"
               >
-                Lar São Domingos
+                {orphanage.name}
                 <Link to={`/orphanages/${orphanage.id}`}>
                   <FiArrowRight size={20} color="#FFF" />
                 </Link>
